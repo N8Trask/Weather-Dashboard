@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <!-- link for API other than bootstrap -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.CSS" rel=" stylesheet" />
+    
+    <link rel="stylesheet" href="assets/style.css">
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <main>
+        <div>
+            <h2>Search for a City:</h2>
+            <input type="text" placeholder="Minneapolis">
+            <button type="button" id="search-button">Search</button>
+        </div>
+
+        <section>
+            <!-- two seperate cards for current temp and 5 day forecast -->
+        </section>
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>
