@@ -5,6 +5,6 @@ This week we were challenged to make a weather dashboard. With the dashboard we 
 
 ## Usage
 
-Click [link] to visit functional weather dashboard
+Click [link](https://n8trask.github.io/Weather-Dashboard/) to visit functional weather dashboard
 
-![screenshot](assets/images/images/screenshot.png)
+![screenshot](./assets/images/screenshot.png)
